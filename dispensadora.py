@@ -71,6 +71,7 @@ def decode3(cap):
     return decodedObjects
   return None
 
+# LEITURA DO DATAMATRIX 4
 def decode4(cap):
   _, im = cap.read()
   frame = im[50: 200, 520: 650]
